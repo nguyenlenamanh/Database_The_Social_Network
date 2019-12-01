@@ -1,0 +1,166 @@
+[
+    {
+        "UserID": "123456",
+        "RefeID": "123456",
+        "Info" : {
+            "Name" : "Nguyễn Văn A",
+            "Birthday" : "05/10/1998",
+            "Place" : "HCMC",
+            "Phone" : "+84703620282",
+            "Email" : "nguyenlenamanh.2016@outlook.com",
+            "Bio" : "I like to do nothing",
+            "Work_Edu" : [
+                {
+                    "IUH" : "01/01/2016-01/01/2020",
+                    "GV" : "01/01/2014-01/01/2016"
+                }
+            ],
+            "Interest" : ["Sleep","Eat","Do nothing"],
+            "Password" : "123456"
+        } 
+    },
+    {
+        "UserID": "123654",
+        "RefeID": "123654",
+        "Info" : {
+            "Name" : "Nguyễn Văn B",
+            "Birthday" : "10/05/1997",
+            "Place" : "Thanh Hoa",
+            "Phone" : "+8470361234",
+            "Email" : "b@outlook.com",
+            "Bio" : "Fuck you A",
+            "Work_Edu" : [
+                {
+                    "IUH" : "01/01/2016-01/01/2020",
+                    "GV" : "01/01/2014-01/01/2016"
+                }
+            ],
+            "Interest" : ["Sleep"],
+            "Password" : "123456"
+        } 
+    },
+    {
+        "UserID": "123789",
+        "RefeID": "123789",
+        "Info" : {
+            "Name" : "Nguyễn Văn C",
+            "Birthday" : "10/05/1997",
+            "Place" : "Khanh Hoa",
+            "Phone" : "+8470361234",
+            "Email" : "c@outlook.com",
+            "Bio" : "Fuck you B",
+            "Work_Edu" : [
+                {
+                    "IUH" : "01/01/2016-01/01/2020",
+                    "GV" : "01/01/2014-01/01/2016"
+                }
+            ],
+            "Interest" : ["Sleep"],
+            "Password" : "123456"
+        } 
+    },
+    {
+        "UserID": "123654",
+        "RefeID": "Friend_123456",
+        "Info": {
+            "Status" : "Accepted",
+            "Friend_Begin_Date" : "05/10/2019"
+        }
+    },
+    {
+        "UserID": "123456",
+        "RefeID": "Friend_123654",
+        "Info": {
+            "Status" : "Accepted",
+            "Friend_Begin_Date" : "05/10/2019"
+        }
+    },
+    {
+        "UserID": "123456",
+        "RefeID": "Friend_123789",
+        "Info": {
+            "Status" : "Accepted",
+            "Friend_Begin_Date" : "05/10/2019"
+        }
+    },
+    {
+        "UserID": "123789",
+        "RefeID": "Friend_123456",
+        "Info": {
+            "Status" : "Accepted",
+            "Friend_Begin_Date" : "05/10/2019"
+        }
+    },
+    {
+        "UserID": "123456",
+        "RefeID": "Post_TestDemo01",
+        "Info": {
+            "Type": "Photo",
+            "Description": "Having fun today",
+            "URL": "https://pics.me.me/um-no-no-mean-no-do-nor-want-o-forceing-8880517.png",
+            "PostTime": "05/12/2019",
+            "Liked": ["123456","123789"],
+            "Comments": [
+                {
+                    "CommentID":"CommentID1",
+                    "Content": "Như cằc",
+                    "PostDate": "05/12/2019",
+                    "Comments": [
+
+                    ]
+                }
+            ],
+            "WhoCanSee": ["123456","123789"]
+        }
+    },
+    {
+        "UserID": "123456",
+        "RefeID": "Noti_NotiID6669",
+        "Info": {
+            "Content": "Nguyễn Văn B đã gửi lời mời kết bạn với bạn",
+            "Type": "Friend_Request",
+            "ReferenceID": "Friend_123456",
+            "Date": "05/10/2019",
+            "Read": false
+        }
+    },
+    {
+        "UserID": "123456",
+        "RefeID": "Chat_Chat123",
+        "Info": {
+            "LastChatContent": "Hello",
+            "Date": "05/10/2019",
+            "Chat": [
+                {
+                    "CID": "Chat_Chat123_123",
+                    "Content": "Hey, you doing good?",
+                    "Date": "05/10/2019",
+                    "By": "123456"
+                }
+            ]
+        }
+    },
+    {
+        "UserID": "Post",
+        "RefeID": "Post_TestDemo01",
+        "Info": {
+            "Type": "Photo",
+            "Description": "Having fun today",
+            "URL": "https://pics.me.me/um-no-no-mean-no-do-nor-want-o-forceing-8880517.png",
+            "PostTime": "05/12/2019",
+            "Liked": ["123456","123789"],
+            "Comments": [
+                {
+                    "CommentID":"CommentID1",
+                    "Content": "Như cằc",
+                    "PostDate": "05/12/2019",
+                    "Comments": [
+
+                    ]
+                }
+            ],
+            "WhoCanSee": ["123456","123789"],
+            "By": "123456"
+        }
+    }
+]
